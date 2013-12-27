@@ -1,6 +1,6 @@
-这个仓库举办语义UI的中国翻译研究。
+本仓库为Semantic UI的汉语翻译
 
 翻译问题
 -------------------
 
-请递交的任何问题翻译给我们的[Github的问题页面](https://github.com/Semantic-Org/semantic-zh/issues)
+请在我们的[Github问题页面](https://github.com/Semantic-Org/semantic-zh/issues)递交任何翻译问题
