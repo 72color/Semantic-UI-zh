@@ -25,7 +25,7 @@ type        : 'UI Element'
         <h4 class="ui header">按扭</h4>
         <p>标准按扭控件。</p>
         <div class="ui button">
-            关注爱酷学习网
+            关注
         </div>
     </div>
 
@@ -120,7 +120,7 @@ type        : 'UI Element'
         <h4 class="ui header">鼠标悬停</h4>
         <p>当用户将鼠标悬停在按扭上时按扭可以改变显示界面。</p>
         <div class="ui hover button">
-            关注爱酷学习网
+            关注
         </div>
     </div>
 
@@ -129,7 +129,7 @@ type        : 'UI Element'
         <p>A button can change when pressed using touch or mouse events</p>
         <div class="ui down button">
             <i class="user icon"></i>
-            关注爱酷学习网
+            关注
         </div>
     </div>
 
@@ -138,7 +138,7 @@ type        : 'UI Element'
         <p>按扭可以被设置成激活状态（相对于禁用状态，这不是废话吗？按扭不激活怎么让用户点击^_^）</p>
         <div class="ui active button">
             <i class="user icon"></i>
-            关注爱酷学习网
+            关注
         </div>
     </div>
 
@@ -147,7 +147,7 @@ type        : 'UI Element'
         <p>按扭可以被禁用，被禁用的按扭用户点击将不会触发事件。</p>
         <div class="ui disabled button">
             <i class="user icon"></i>
-            已关注了爱酷学习网
+            已关注
         </div>
     </div>
 
