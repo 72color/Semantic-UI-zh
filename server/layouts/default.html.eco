@@ -72,6 +72,8 @@
         <link rel="stylesheet" type="text/css" class="ui" href="/build/packaged/css/semantic.min.css">
         <% end %>
 
+        <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
+
         <% if 'development' in @getEnvironments(): %>
         <script>
             (function() {
