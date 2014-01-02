@@ -28,13 +28,13 @@ type        : 'UI Module'
         <div class="example">
             <h3 class="ui header">弹出框</h3>
             <p>标准弹出框。</p>
-            <i class="heart circular icon link" data-content="爱酷学习网"></i>
+            <i class="heart circular icon link" data-content="一个链接"></i>
         </div>
 
         <div class="example">
             <h3 class="ui header">带标题的弹出框</h3>
             <p>弹出框的内容可以带有标题。</p>
-            <img src="/images/demo/photo.jpg" data-title="翻译支持" data-content="这是由爱酷学习网翻译的哦！" class="ui avatar image"> 爱酷学习网翻译
+            <img src="/images/demo/photo.jpg" data-title="翻译支持" data-content="这是由一个链接翻译的哦！" class="ui avatar image"> 一个链接翻译
         </div>
 
         <div class="example">
@@ -92,7 +92,7 @@ type        : 'UI Module'
             </div>
             <h4 class="ui header">使用元数据初始化。</h4>
             <div class="code" data-type="html">
-                <i class="heart icon" title="爱酷学习网翻译。"></i>
+                <i class="heart icon" title="一个链接翻译。"></i>
             </div>
             <div class="ui horizontal divider">或者</div>
             <h4 class="ui header">使用Javascript完成初始化。</h4>
@@ -185,8 +185,8 @@ type        : 'UI Module'
                 $('.test.button').popup({
                 position : 'top right',
                 target   : '.test.image',
-                title    : '爱酷学习网翻译。',
-                content  : '爱酷学习网翻译的哦！'
+                title    : '一个链接翻译。',
+                content  : '一个链接翻译的哦！'
                 });
             </div>
             <div class="ui basic test button">悬浮鼠标</div>

@@ -461,8 +461,8 @@ type        : 'UI Collection'
             <p><i class="icon heart"></i>用锚标记的项目将自动被格式化为一个链接。</p>
         </div>
         <div class="ui vertical menu">
-            <a href="http://www.icoolxue.com" class="item">
-                爱酷学习网
+            <a href="#" class="item">
+                一个链接
             </a>
             <div class="link item">
                 Semantic UI官方中文网
@@ -478,7 +478,7 @@ type        : 'UI Collection'
         </div>
         <div class="ui vertical menu">
             <div class="ui dropdown item">
-                爱酷学习网 <i class="dropdown icon"></i>
+                一个链接 <i class="dropdown icon"></i>
                 <div class="menu">
                     <a class="item">我的视频教程</a>
                     <a class="item">全部视频教程</a>
@@ -525,7 +525,7 @@ type        : 'UI Collection'
         <div class="ui ignore warning message"><i class="icon heart"></i>菜单只有在处于链接样式或者被类名"link"修饰或者程序控件时（使用Javascript调用）才能被悬浮。</div>
         <div class="ui compact menu">
             <div class="hover item">
-                爱酷学习网
+                一个链接
             </div>
         </div>
     </div>
@@ -536,7 +536,7 @@ type        : 'UI Collection'
         <p>菜单可以被按下。</p>
         <div class="ui compact menu">
             <div class="down item">
-                爱酷学习网
+                一个链接
             </div>
         </div>
     </div>
@@ -546,7 +546,7 @@ type        : 'UI Collection'
         <p>菜单可以处于激活状态。</p>
         <div class="ui compact menu">
             <div class="active item">
-                爱酷学习网
+                一个链接
             </div>
         </div>
     </div>
@@ -797,9 +797,9 @@ type        : 'UI Collection'
         <h4 class="ui header">流式布局</h4>
         <p>菜单可以占用所有的父控件空间。</p>
         <div class="ui fluid vertical menu">
-            <a class="item">爱酷学习网</a>
-            <a class="item">爱酷学习网博客</a>
-            <a class="item">爱酷学习网问答</a>
+            <a class="item">一个链接</a>
+            <a class="item">一个链接博客</a>
+            <a class="item">一个链接问答</a>
         </div>
     </div>
 
@@ -807,9 +807,9 @@ type        : 'UI Collection'
         <h4 class="ui header">平分空间</h4>
         <p>所有的菜单可以平分父容器空间。</p>
         <div class="ui fluid three item menu">
-            <a class="item">爱酷学习网</a>
-            <a class="item">爱酷学习网博客</a>
-            <a class="item">爱酷学习网问答</a>
+            <a class="item">一个链接</a>
+            <a class="item">一个链接博客</a>
+            <a class="item">一个链接问答</a>
         </div>
     </div>
 
@@ -817,7 +817,7 @@ type        : 'UI Collection'
         <p>垂直菜单可以指示出相邻菜单的所有权关系。</p>
         <div class="ui pointing vertical menu">
             <a class="item">
-                爱酷学习网
+                一个链接
             </a>
             <div class="item">
                 <b>视频教程</b>
@@ -851,7 +851,7 @@ type        : 'UI Collection'
             </a>
         </div>
         <div class="ui bottom attached segment">
-            爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
         </div>
     </div>
 

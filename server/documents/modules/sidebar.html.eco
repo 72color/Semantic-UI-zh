@@ -14,13 +14,13 @@ type        : 'UI Module'
 <div class="ui styled sidebar">
     <h3 class="ui header">你会爱上我哟！</h3>
     <div class="ui fluid vertical menu">
-        <a class="item" href="http://www.icoolxue.com">
+        <a class="item" href="#">
             <i class="chat outline icon"></i>
-            更多关于爱酷学习网的介绍
+            更多关于一个链接的介绍
         </a>
-        <a class="item" href="http://www.icoolxue.com">
+        <a class="item" href="#">
             <i class="text file icon"></i>
-            去爱酷学习网看看
+            去一个链接看看
         </a>
     </div>
     <h3 class="ui header">联系我们</h3>
@@ -72,13 +72,13 @@ type        : 'UI Module'
 <div class="ui wide styled sidebar">
     <h3 class="ui header">你会爱上我哟！</h3>
     <div class="ui fluid vertical menu">
-        <a class="item" href="http://www.icoolxue.com">
+        <a class="item" href="#">
             <i class="chat outline icon"></i>
-            更多关于爱酷学习网的介绍
+            更多关于一个链接的介绍
         </a>
-        <a class="item" href="http://www.icoolxue.com">
+        <a class="item" href="#">
             <i class="text file icon"></i>
-            去爱酷学习网看看
+            去一个链接看看
         </a>
     </div>
 </div>
@@ -166,27 +166,27 @@ type        : 'UI Module'
 </div>
 <div class="ui left sidebar vertical menu">
     <div class="header item">左边的侧边栏</div>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
 </div>
 <div class="ui right sidebar inverted red vertical menu">
     <div class="header item">右边的侧边栏</div>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
 </div>
 <div class="ui top inverted teal sidebar menu">
     <div class="header item">上边的侧边栏</div>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
 </div>
 <div class="ui bottom inverted sidebar menu">
     <div class="header item">底部侧边栏</div>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
-    <a class="item" href="http://www.icoolxue.com">爱酷学习网</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
+    <a class="item">An Item</a>
 </div>
 
 <div class="main container">

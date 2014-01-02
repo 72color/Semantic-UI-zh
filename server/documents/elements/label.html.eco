@@ -31,7 +31,7 @@ type        : 'UI Element'
         <h4 class="ui header">详细标签</h4>
         <p>标签可以包含详细信息（最好是简短一些的信息）。</p>
         <div class="ui label">
-            爱酷学习网的视频教程类目
+            一个链接的视频教程类目
             <div class="detail">1558</div>
         </div>
     </div>
@@ -314,11 +314,11 @@ type        : 'UI Element'
         <h4 class="ui header">标签尺寸</h4>
         <p>标签也可以有不同的尺寸的哦（又是废话了，所有的Semantic UI都有不同的尺寸）。</p>
         <div class="ui small label">
-            爱酷学习网
+            一个链接
         </div>
         <br><br>
         <div class="ui large label">
-            爱酷学习网
+            一个链接
         </div>
     </div>
 

@@ -21,7 +21,7 @@ type        : 'UI Module'
                 <i class="home icon"></i>
             </div>
             <div class="right">
-                <p>确定修改你的主页为<b>爱酷学习网</b>吗？</p>
+                <p>确定修改你的主页为<b>一个链接</b>吗？</p>
             </div>
         </div>
         <div class="actions">
@@ -41,10 +41,10 @@ type        : 'UI Module'
     <div class="ui small modal">
         <i class="close icon"></i>
         <div class="header">
-            爱酷学习网帮助到你的学习了吗？
+            一个链接帮助到你的学习了吗？
         </div>
         <div class="content">
-            <p>爱酷学习网上的视频教程能帮助到你的学习吗？</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </div>
         <div class="actions">
             <div class="ui negative button">
@@ -60,10 +60,10 @@ type        : 'UI Module'
     <div class="ui large modal">
         <i class="close icon"></i>
         <div class="header">
-            你对爱酷学习网的服务还满意吗？
+            你对一个链接的服务还满意吗？
         </div>
         <div class="content">
-            <p>对于爱酷学习网提供的高清视频教程的清晰度你还满意吗？在线观看视频教程是否出现卡顿现象？</p>
+            <p>对于一个链接提供的高清视频教程的清晰度你还满意吗？在线观看视频教程是否出现卡顿现象？</p>
         </div>
         <div class="actions">
             <div class="ui negative button">

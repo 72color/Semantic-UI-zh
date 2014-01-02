@@ -28,7 +28,7 @@ type        : 'UI Module'
             <p>标准式</p>
             <div class="ui checkbox">
                 <input type="checkbox" name="fun" />
-                <label>爱酷学习网</label>
+                <label>一个链接</label>
             </div>
         </div>
 
@@ -37,7 +37,7 @@ type        : 'UI Module'
             <p>用滑块样式来显示复选框。</p>
             <div class="ui slider checkbox">
                 <input type="checkbox" name="walk" />
-                <label>是否喜欢爱酷学习网？</label>
+                <label>是否喜欢一个链接？</label>
             </div>
         </div>
 
@@ -46,7 +46,7 @@ type        : 'UI Module'
             <p>用开关样式来显示复选框。</p>
             <div class="ui toggle checkbox">
                 <input type="checkbox" name="pet" />
-                <label>是否喜欢爱酷学习网？</label>
+                <label>是否喜欢一个链接？</label>
             </div>
         </div>
 
@@ -60,7 +60,7 @@ type        : 'UI Module'
                     <div class="field">
                         <div class="ui radio checkbox">
                             <input type="radio" name="www" checked="checked" />
-                            <label>爱酷学习网</label>
+                            <label>一个链接</label>
                         </div>
                     </div>
                     <div class="field">
@@ -72,13 +72,13 @@ type        : 'UI Module'
                     <div class="field">
                         <div class="ui radio checkbox">
                             <input type="radio" name="blog" />
-                            <label>爱酷学习网博客</label>
+                            <label>一个链接博客</label>
                         </div>
                     </div>
                     <div class="field">
                         <div class="ui radio checkbox">
                             <input type="radio" name="ebook" />
-                            <label>爱酷学习网电子书</label>
+                            <label>一个链接电子书</label>
                         </div>
                     </div>
                 </div>
@@ -92,13 +92,13 @@ type        : 'UI Module'
             <p>复选框有多种尺寸。</p>
             <div class="ui large checkbox">
                 <input type="checkbox" />
-                <label>爱酷学习网</label>
+                <label>一个链接</label>
             </div>
         </div>
         <div class="another example">
             <div class="ui huge checkbox">
                 <input type="checkbox" />
-                <label>爱酷学习网博客</label>
+                <label>一个链接博客</label>
             </div>
         </div>
 

@@ -104,7 +104,7 @@ type        : 'UI Element'
     </div>
     <div class="another example">
         <div class="ui action input">
-            <input type="text" value="http://www.icoolxue.com">
+            <input type="text" value="#">
             <div class="ui teal right labeled icon button"><i class="copy icon"></i> 复制</div>
         </div>
     </div>

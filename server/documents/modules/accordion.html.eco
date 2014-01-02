@@ -28,25 +28,25 @@ type        : 'UI Module'
             <div class="ui accordion">
                 <div class="active title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网是什么？
+                    一个链接是什么？
                 </div>
                 <div class="active content">
-                    <p>爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
                 </div>
                 <div class="title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网使用了什么技术？
+                    一个链接使用了什么技术？
                 </div>
                 <div class="content">
                     <p>Java, Mybatis, Shiro, SpringMVC, Bootstrap, Semantic UI, jQuery等。</p>
                 </div>
                 <div class="title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网比其它网站好在哪？
+                    一个链接比其它网站好在哪？
                 </div>
                 <div class="content">
                     <p>最大的好在于降低学习成本。</p>
-                    <p>爱酷学习网的绝大部分视频教程都是免费观看的，另外，爱酷学习网的视频教程都是下载的哦。</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
                 </div>
             </div>
         </div>
@@ -57,25 +57,25 @@ type        : 'UI Module'
             <div class="ui basic accordion">
                 <div class="active title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网是什么？
+                    一个链接是什么？
                 </div>
                 <div class="active content">
-                    <p>爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
                 </div>
                 <div class="title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网使用了什么技术？
+                    一个链接使用了什么技术？
                 </div>
                 <div class="content">
                     <p>Java, Mybatis, Shiro, SpringMVC, Bootstrap, Semantic UI, jQuery等。</p>
                 </div>
                 <div class="title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网比其它网站好在哪？
+                    一个链接比其它网站好在哪？
                 </div>
                 <div class="content">
                     <p>最大的好在于降低学习成本。</p>
-                    <p>爱酷学习网的绝大部分视频教程都是免费观看的，另外，爱酷学习网的视频教程都是下载的哦。</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
                 </div>
             </div>
         </div>
@@ -87,25 +87,25 @@ type        : 'UI Module'
             <div class="ui fluid accordion">
                 <div class="active title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网是什么？
+                    一个链接是什么？
                 </div>
                 <div class="active content">
-                    <p>爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
                 </div>
                 <div class="title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网使用了什么技术？
+                    一个链接使用了什么技术？
                 </div>
                 <div class="content">
                     <p>Java, Mybatis, Shiro, SpringMVC, Bootstrap, Semantic UI, jQuery等。</p>
                 </div>
                 <div class="title">
                     <i class="dropdown icon"></i>
-                    爱酷学习网比其它网站好在哪？
+                    一个链接比其它网站好在哪？
                 </div>
                 <div class="content">
                     <p>最大的好在于降低学习成本。</p>
-                    <p>爱酷学习网的绝大部分视频教程都是免费观看的，另外，爱酷学习网的视频教程都是下载的哦。</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
                 </div>
             </div>
         </div>

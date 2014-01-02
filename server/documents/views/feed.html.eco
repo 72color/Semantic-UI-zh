@@ -25,7 +25,7 @@ type        : 'UI View'
         <p>标准的Feed包含了一些可选的元素。</p>
         <div class="ui piled feed segment">
             <h2 class="ui header">
-                爱酷学习网的当前活动
+                一个链接的当前活动
             </h2>
             <div class="event">
                 <div class="label">
@@ -36,7 +36,7 @@ type        : 'UI View'
                         一个月前
                     </div>
                     <div class="summary">
-                        <a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>正式上线！
+                        <a href="#" target="_blank">一个链接</a>正式上线！
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ type        : 'UI View'
                         3天前
                     </div>
                     <div class="summary">
-                        <a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>加入<a>视频教程订阅</a>功能。
+                        <a href="#" target="_blank">一个链接</a>加入<a>视频教程订阅</a>功能。
                     </div>
                     <div class="extra images">
                         <img src="/images/demo/item1.jpg">
@@ -89,7 +89,7 @@ type        : 'UI View'
                 </div>
                 <div class="content">
                     <div class="summary">
-                        <a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>正式上线！
+                        <a href="#" target="_blank">一个链接</a>正式上线！
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@ type        : 'UI View'
                 </div>
                 <div class="content">
                     <div class="summary">
-                        爱酷学习网新增视频教程订阅功能。
+                        一个链接新增视频教程订阅功能。
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ type        : 'UI View'
                         3天前
                     </div>
                     <div class="summary">
-                        <a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>正式上线！
+                        <a href="#" target="_blank">一个链接</a>正式上线！
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ type        : 'UI View'
                         3天前
                     </div>
                     <div class="summary">
-                        <a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>正式上线！
+                        <a href="#" target="_blank">一个链接</a>正式上线！
                     </div>
                     <div class="extra images">
                         <img src="/images/demo/item1.jpg">
@@ -156,10 +156,10 @@ type        : 'UI View'
                         3天前
                     </div>
                     <div class="summary">
-                        <a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>新增订阅功能。
+                        <a href="#" target="_blank">一个链接</a>新增订阅功能。
                     </div>
                     <div class="extra text">
-                        爱酷学习网加入最新评论功能。
+                        一个链接加入最新评论功能。
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@ type        : 'UI View'
                                 一个月前
                             </div>
                             <div class="summary">
-                                为<a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>增加视频教程订阅功能。
+                                为<a href="#" target="_blank">一个链接</a>增加视频教程订阅功能。
                             </div>
                         </div>
                     </div>
@@ -198,10 +198,10 @@ type        : 'UI View'
                                 3天前
                             </div>
                             <div class="summary">
-                                为爱酷学习网增加最新评论功能。
+                                为一个链接增加最新评论功能。
                             </div>
                             <div class="extra text">
-                                为爱酷学习网设计Logo。
+                                为一个链接设计Logo。
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ type        : 'UI View'
                                 3天前
                             </div>
                             <div class="summary">
-                                <a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>新增<a>视频教程订阅</a>功能。
+                                <a href="#" target="_blank">一个链接</a>新增<a>视频教程订阅</a>功能。
                             </div>
                             <div class="extra images">
                                 <img src="/images/demo/item1.jpg">
@@ -230,28 +230,28 @@ type        : 'UI View'
                     <div class="event">
                         <div class="content">
                             <div class="summary">
-                                为<a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>上传<a>Bootstrap</a>视频教程。
+                                为<a href="#" target="_blank">一个链接</a>上传<a>Bootstrap</a>视频教程。
                             </div>
                         </div>
                     </div>
                     <div class="event">
                         <div class="content">
                             <div class="summary">
-                                为<a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>上传<a>ExtJS</a>视频教程。
+                                为<a href="#" target="_blank">一个链接</a>上传<a>ExtJS</a>视频教程。
                             </div>
                         </div>
                     </div>
                     <div class="event">
                         <div class="content">
                             <div class="summary">
-                                为<a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>上传<a>Java</a>视频教程。
+                                为<a href="#" target="_blank">一个链接</a>上传<a>Java</a>视频教程。
                             </div>
                         </div>
                     </div>
                     <div class="event">
                         <div class="content">
                             <div class="summary">
-                                为<a href="http://www.icoolxue.com" target="_blank">爱酷学习网</a>上传<a>Python</a>视频教程。
+                                为<a href="#" target="_blank">一个链接</a>上传<a>Python</a>视频教程。
                             </div>
                         </div>
                     </div>

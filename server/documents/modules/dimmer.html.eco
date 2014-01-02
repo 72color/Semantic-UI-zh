@@ -13,7 +13,7 @@ type        : 'UI Module'
         <div class="center">
             <h2 class="ui inverted icon header">
                 <i class="icon circular inverted emphasized green mail"></i>
-                You're all signed up for the weekly dog tips newsletter!你已经成功订阅了爱酷学习网的视频教程信息。
+                You're all signed up for the weekly dog tips newsletter!你已经成功订阅了一个链接的视频教程信息。
                 <div class="sub header">每当有新的视频教程的时候，我们都会通过邮件发送你感兴趣的内容给你哦。</div>
             </h2>
         </div>
@@ -81,7 +81,7 @@ type        : 'UI Module'
             <div class="existing code">
                 <div class="ui page dimmer">
                     <div class="content">
-                        <div class="center">爱酷学习网</div>
+                        <div class="center">一个链接</div>
                     </div>
                 </div>
             </div>
@@ -116,8 +116,8 @@ type        : 'UI Module'
             <div class="ignored ui info message">任何有用类名<code>ui dimmable dimmed</code>修饰的父元素都可以触发调光器（遮罩器）显示。</div>
             <div class="ui dimmable dimmed segment">
                 <div class="ui simple dimmer"></div>
-                <p>爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。</p>
-                <p>爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
             </div>
         </div>
 
@@ -126,8 +126,8 @@ type        : 'UI Module'
             <p>又是反色控件，不多解释了。</p>
             <div class="ui segment">
                 <div class="ui inverted dimmer"></div>
-                <p>爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。</p>
-                <p>爱酷学习网是一个免费提供高清在线观看视频教程的网站，这里有各类视频教程，包括Java,.Net,C,C++,Python,Php,iOS,Ruby,Photoshop,Mybats,Spring,SpringMVC,Bootstrap,Semantic UI等视频教程。我们还提供了Android, iOS, Windows Phone客户端，让你在手机等移动设备上也能随时随地观看视频教程。</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
             </div>
             <div class="ignore ui icon buttons">
                 <div class="ui show button"><i class="plus icon"></i></div>
