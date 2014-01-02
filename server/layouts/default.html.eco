@@ -1,196 +1,192 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
-    <head>
-        <% if 'development' in @getEnvironments(): %>
-        <% else: %>
-        <base href="http://semantic-org.github.io/Semantic-UI-zh/">
+<head>
+  <% uiIntroduction    = @getCollection("documents").findAll({type: $in: ['UI Introduction']},[{title: 1}]).toJSON() %>
+  <% uiProject         = @getCollection("documents").findAll({type: $in: ['Semantic Project']},[{title: 1}]).toJSON() %>
+  <% uiGuide           = @getCollection("documents").findAll({type: $in: ['UI Guide']},[{title: 1}]).toJSON() %>
+  <% uiElements        = @getCollection("documents").findAll({type: $in: ['UI Element']},[{title: 1}]).toJSON() %>
+  <% uiCollections     = @getCollection("documents").findAll({type: $in: ['UI Collection']},[{title: 1}]).toJSON() %>
+  <% uiViews           = @getCollection("documents").findAll({type: $in: ['UI View']},[{title: 1}]).toJSON() %>
+  <% uiModules         = @getCollection("documents").findAll({type: $in: ['UI Module']},[{title: 1}]).toJSON() %>
+  <% uiBehavior        = @getCollection("documents").findAll({type: $in: ['UI Behavior']},[{title: 1}]).toJSON() %>
+  <% uiSpecification   = @getCollection("documents").findAll({type: $in: ['UI Specification']},[{title: 1}]).toJSON() %>
+  <% currentCollection = @getCollection("documents").findAll({type: $in: [@document.type]},[{title: 1}]).toJSON() %>
+  <% pageCount         = @pageCount(currentCollection) %>
+  <% pageNumber        = @getPage(currentCollection, @document.id) %>
+  <% pageCollection    = @getPageCollection(currentCollection, @document.id) %>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="image_src" type="image/jpeg" href="images/share.png" />
+
+  <!-- Site Properities -->
+  <%- @getBlock('meta').toHTML() %>
+  <title><%= @getPreparedTitle() %></title>
+
+  <meta name="description" content="<%= @getPreparedDescription() %>" />
+  <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+
+  <link rel="stylesheet" type="text/css" class="ui" href="http://www.semantic-ui.com/build/packaged/css/semantic.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
+  <script>
+    (function() {
+      var
+      eventSupport = ('querySelector' in document && 'addEventListener' in window)
+      jsonSupport = (typeof JSON !== 'undefined'),
+      jQuery = (eventSupport && jsonSupport)
+      ? '/javascript/library/jquery.min.js'
+      : '/javascript/library/jquery.legacy.min.js'
+      ;
+      document.write('<script src="' + jQuery + '"><\/script>');
+    }());
+  </script>
+  <script src="/javascript/library/history.js"></script>
+  <script src="/javascript/library/easing.js"></script>
+  <script src="/javascript/library/ace/ace.js"></script>
+  <script src="/javascript/library/tablesort.js"></script>
+  <script src="/javascript/library/waypoints.js"></script>
+
+  <script src="http://www.semantic-ui.com/build/packaged/javascript/semantic.min.js"></script>
+
+  <script src="/javascript/semantic.js"></script>
+
+</head>
+<body id="example" class="<%= @document.css %>">
+  <div class="ui large vertical inverted labeled icon sidebar menu" id="menu">
+    <a class="hide item">
+      <i class="close icon"></i> 关闭
+    </a>
+    <a class="item" href="http://www.semantic-ui.com/build/semantic.zip">
+      <i class="inverted circular red awesome download cloud icon"></i> <b>下载</b>
+    </a>
+    <div class="item">
+      <a href="/">
+        <b>简单介绍</b>
+      </a>
+      <div class="menu">
+        <% for element in uiIntroduction: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
         <% end %>
-        <% uiIntroduction    = @getCollection("documents").findAll({type: $in: ['UI Introduction']},[{title: 1}]).toJSON() %>
-        <% uiProject         = @getCollection("documents").findAll({type: $in: ['Semantic Project']},[{title: 1}]).toJSON() %>
-        <% uiGuide           = @getCollection("documents").findAll({type: $in: ['UI Guide']},[{title: 1}]).toJSON() %>
-        <% uiElements        = @getCollection("documents").findAll({type: $in: ['UI Element']},[{title: 1}]).toJSON() %>
-        <% uiCollections     = @getCollection("documents").findAll({type: $in: ['UI Collection']},[{title: 1}]).toJSON() %>
-        <% uiViews           = @getCollection("documents").findAll({type: $in: ['UI View']},[{title: 1}]).toJSON() %>
-        <% uiModules         = @getCollection("documents").findAll({type: $in: ['UI Module']},[{title: 1}]).toJSON() %>
-        <% uiBehavior        = @getCollection("documents").findAll({type: $in: ['UI Behavior']},[{title: 1}]).toJSON() %>
-        <% uiSpecification   = @getCollection("documents").findAll({type: $in: ['UI Specification']},[{title: 1}]).toJSON() %>
-        <% currentCollection = @getCollection("documents").findAll({type: $in: [@document.type]},[{title: 1}]).toJSON() %>
-        <% pageCount         = @pageCount(currentCollection) %>
-        <% pageNumber        = @getPage(currentCollection, @document.id) %>
-        <% pageCollection    = @getPageCollection(currentCollection, @document.id) %>
-        <!-- Standard Meta -->
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </div>
+    </div>
+    <div class="item">
+      <b>关于项目</b>
+      <div class="menu">
+        <% for element in uiProject: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
+        <% end %>
+      </div>
+    </div>
+    <div class="item">
+      <a href="/element.html"><b>基础组件</b></a>
+      <div class="menu">
+        <% for element in uiElements: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
+        <% end %>
+      </div>
+    </div>
+    <div class="item">
+      <a href="/collection.html"><b>集合/列表组件</b></a>
+      <div class="menu">
+        <% for element in uiCollections: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
+        <% end %>
+      </div>
+    </div>
+    <div class="item">
+      <b>内容展示组件</b>
+      <div class="menu">
+        <% for element in uiViews: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
+        <% end %>
+      </div>
+    </div>
+    <div class="item">
+      <a href="/module.html"><b>模块</b></a>
+      <div class="menu">
+        <% for element in uiModules: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
+        <% end %>
+      </div>
+    </div>
+    <div class="item">
+      <b>特定行为控件</b>
+      <div class="menu">
+        <% for element in uiBehavior: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
+        <% end %>
+      </div>
+    </div>
+    <div class="item">
+      <b>样式指南</b>
+      <div class="menu">
+        <% for element in uiGuide: %>
+        <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
+        <% end %>
+      </div>
+    </div>
+  </div>
 
-        <link rel="image_src" type="image/jpeg" href="images/share.png" />
-
-        <!-- Site Properities -->
-        <%- @getBlock('meta').toHTML() %>
-        <title><%= @getPreparedTitle() %></title>
-
-        <meta name="description" content="<%= @getPreparedDescription() %>" />
-        <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
-
-        <link rel="stylesheet" type="text/css" class="ui" href="http://www.semantic-ui.com/build/packaged/css/semantic.min.css">
-
-        <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
-        <script>
-            (function() {
-                var
-                        eventSupport = ('querySelector' in document && 'addEventListener' in window)
-                jsonSupport = (typeof JSON !== 'undefined'),
-                        jQuery = (eventSupport && jsonSupport)
-                        ? '/javascript/library/jquery.min.js'
-                        : '/javascript/library/jquery.legacy.min.js'
-                        ;
-                document.write('<script src="' + jQuery + '"><\/script>');
-            }());
-        </script>
-        <script src="/javascript/library/history.js"></script>
-        <script src="/javascript/library/easing.js"></script>
-        <script src="/javascript/library/ace/ace.js"></script>
-        <script src="/javascript/library/tablesort.js"></script>
-        <script src="/javascript/library/waypoints.js"></script>
-
-        <script src="http://www.semantic-ui.com/build/packaged/javascript/semantic.min.js"></script>
-
-        <script src="/javascript/semantic.js"></script>
-
-    </head>
-    <body id="example" class="<%= @document.css %>">
-        <div class="ui large vertical inverted labeled icon sidebar menu" id="menu">
-            <a class="hide item">
-                <i class="close icon"></i> 关闭
-            </a>
-            <a class="item" href="http://www.semantic-ui.com/build/semantic.zip">
-                <i class="inverted circular red awesome download cloud icon"></i> <b>下载</b>
-            </a>
-            <div class="item">
-                <a href="/">
-                    <b>简单介绍</b>
-                </a>
-                <div class="menu">
-                    <% for element in uiIntroduction: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
-            <div class="item">
-                <b>关于项目</b>
-                <div class="menu">
-                    <% for element in uiProject: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
-            <div class="item">
-                <a href="/element.html"><b>基础组件</b></a>
-                <div class="menu">
-                    <% for element in uiElements: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
-            <div class="item">
-                <a href="/collection.html"><b>集合/列表组件</b></a>
-                <div class="menu">
-                    <% for element in uiCollections: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
-            <div class="item">
-                <b>内容展示组件</b>
-                <div class="menu">
-                    <% for element in uiViews: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
-            <div class="item">
-                <a href="/module.html"><b>模块</b></a>
-                <div class="menu">
-                    <% for element in uiModules: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
-            <div class="item">
-                <b>特定行为控件</b>
-                <div class="menu">
-                    <% for element in uiBehavior: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
-            <div class="item">
-                <b>样式指南</b>
-                <div class="menu">
-                    <% for element in uiGuide: %>
-                    <a class="<%= if element.id is @document.id then 'active ' %>item" href="<%= element.url %>"><%= element.title %></a>
-                    <% end %>
-                </div>
-            </div>
+  <div class="ui fixed transparent inverted main menu">
+    <div class="container">
+      <a class="launch item"><i class="icon list layout"></i> 内容</a>
+      <div class="title item">
+        <b><%= @document.type %>:</b> <%= @document.title %>
+      </div>
+      <% if pageNumber > 1 and currentCollection[pageNumber - 2]?: %>
+      <a class="icon item" href="<%= currentCollection[pageNumber - 2].url %>"><i class="left arrow icon"></i></a>
+      <% else: %>
+      <div class="disabled icon item"><i class="left arrow icon"></i></div>
+      <% end %>
+      <div class="section ui dropdown link item">
+        <span class="count"><%= "#{pageNumber} of #{pageCount}" %></span>
+        <div class="menu">
+          <% for element, index in currentCollection: %>
+          <div class="<%= if element.id is @document.id then 'active ' %>item">
+            <a href="<%= element.url %>"><%= (index+1) %>. <%= element.title %></a>
+          </div>
+          <% end %>
         </div>
-
-        <div class="ui fixed transparent inverted main menu">
-            <div class="container">
-                <a class="launch item"><i class="icon list layout"></i> 内容</a>
-                <div class="title item">
-                    <b><%= @document.type %>:</b> <%= @document.title %>
-                </div>
-                <% if pageNumber > 1 and currentCollection[pageNumber - 2]?: %>
-                <a class="icon item" href="<%= currentCollection[pageNumber - 2].url %>"><i class="left arrow icon"></i></a>
-                <% else: %>
-                <div class="disabled icon item"><i class="left arrow icon"></i></div>
-                <% end %>
-                <div class="section ui dropdown link item">
-                    <span class="count"><%= "#{pageNumber} of #{pageCount}" %></span>
-                    <div class="menu">
-                        <% for element, index in currentCollection: %>
-                        <div class="<%= if element.id is @document.id then 'active ' %>item">
-                            <a href="<%= element.url %>"><%= (index+1) %>. <%= element.title %></a>
-                        </div>
-                        <% end %>
-                    </div>
-                </div>
-                <% if pageNumber isnt pageCount and currentCollection[pageNumber]?: %>
-                <a class="icon item" href="<%= currentCollection[pageNumber].url %>"><i class="right arrow icon"></i></a>
-                <% else: %>
-                <div class="disabled icon item"><i class="right arrow icon"></i></div>
-                <% end %>
-                <div class="right menu">
-                    <% unless 'development' in @getEnvironments(): %>
-                    <div class="vertically fitted borderless item">
-                        <iframe src="http://ghbtns.com/github-btn.html?user=jlukic&repo=semantic-ui&type=watch&count=true"
-                                allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
-                    </div>
-                    <% end %>
-                    <% if @document.type is 'UI Element' or @document.type is 'UI View' or @document.type is 'UI Collection' or @document.type is 'UI Module': %>
-                    <a class="popup designer icon item" title="设计模式">
-                        <i class="basic paint icon"></i>
-                    </a>
-                    <a class="popup developer icon item" title="开发模式">
-                        <i class="terminal icon"></i>
-                    </a>
-                    <% end %>
-                    <a class="popup icon github item" title="查看Semantic UI在Github的项目信息" href="https://github.com/quirkyinc/semantic">
-                        <i class="icon github"></i>
-                    </a>
-                    <div class="title item">
-                        交流群：262577550
-                    </div>
-                </div>
-            </div>
+      </div>
+      <% if pageNumber isnt pageCount and currentCollection[pageNumber]?: %>
+      <a class="icon item" href="<%= currentCollection[pageNumber].url %>"><i class="right arrow icon"></i></a>
+      <% else: %>
+      <div class="disabled icon item"><i class="right arrow icon"></i></div>
+      <% end %>
+      <div class="right menu">
+        <% unless 'development' in @getEnvironments(): %>
+        <div class="vertically fitted borderless item">
+          <iframe src="http://ghbtns.com/github-btn.html?user=jlukic&repo=semantic-ui&type=watch&count=true"
+          allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
         </div>
-        <div class="ui black huge launch right attached button">
-            <i class="icon list layout"></i>
-            <span class="text">导航</span>
+        <% end %>
+        <% if @document.type is 'UI Element' or @document.type is 'UI View' or @document.type is 'UI Collection' or @document.type is 'UI Module': %>
+        <a class="popup designer icon item" title="设计模式">
+          <i class="basic paint icon"></i>
+        </a>
+        <a class="popup developer icon item" title="开发模式">
+          <i class="terminal icon"></i>
+        </a>
+        <% end %>
+        <a class="popup icon github item" title="查看Semantic UI在Github的项目信息" href="https://github.com/quirkyinc/semantic">
+          <i class="icon github"></i>
+        </a>
+        <div class="title item">
+          交流群：262577550
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui black huge launch right attached button">
+    <i class="icon list layout"></i>
+    <span class="text">导航</span>
+  </div>
 
-        <%- @content %>
+  <%- @content %>
 
-    </body>
+</body>
 
 </html>
