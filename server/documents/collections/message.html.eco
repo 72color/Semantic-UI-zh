@@ -45,8 +45,8 @@ type        : 'UI Collection'
                 一个链接的优点：
             </div>
             <ul class="list">
-                <li>观看视频教程都是免费的！</li>
-                <li>所有视频教程都是高清在线观看哦，免去你下载视频教程的等待时间。</li>
+                <li>学习Semantic UI</li>
+                <li>Semantic UI文档。</li>
             </ul>
         </div>
     </div>
@@ -60,7 +60,7 @@ type        : 'UI Collection'
                 <div class="header">
                     没有收到我们的激活邮件？
                 </div>
-                <p>注册成为一个链接的会员是必须通过邮箱激活的哦！</p>
+                <p>注册成为会员是必须通过邮箱激活的哦！</p>
             </div>
         </div>
     </div>
@@ -71,9 +71,9 @@ type        : 'UI Collection'
         <div class="ui message">
             <i class="close icon"></i>
             <div class="header">
-                下载视频教程
+                Semantic UI文档
             </div>
-            <p>一个链接的所有视频教程都是可以下载的哦。</p>
+            <p>Semantic UI文档。</p>
         </div>
     </div>
 
@@ -169,7 +169,7 @@ type        : 'UI Collection'
 
     <div class="example">
         <h4 class="ui header">警告消息</h4>
-        <p>显示警告类消息（提示用户有警告类消息，比如一个链接提供了视频教程下载服务，但是下载需要消耗资源，可以在下载前使用这个控件对用户进行提示）。</p>
+        <p>显示警告类消息（提示用户有警告类消息，比如这是Semantic UI文档）。</p>
         <div class="ui warning message">
             <i class="close icon"></i>
             <div class="header">
@@ -188,8 +188,8 @@ type        : 'UI Collection'
                 注册成为一个链接的会员有什么好处呢？
             </div>
             <ul class="list">
-                <li>可以上传自己的视频教程。</li>
-                <li>还可以下载一个链接提供的视频教程原始视频。</li>
+                <li>可以上传自己的Semantic UI文档。</li>
+                <li>还可以下载Semantic UI文档。</li>
             </ul>
         </div>
     </div>

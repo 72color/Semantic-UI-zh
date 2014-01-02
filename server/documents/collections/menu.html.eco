@@ -465,7 +465,7 @@ type        : 'UI Collection'
                 一个链接
             </a>
             <div class="link item">
-                Semantic UI官方中文网
+                Javascript Link
             </div>
         </div>
     </div>

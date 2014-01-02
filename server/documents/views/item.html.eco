@@ -37,7 +37,7 @@ type        : 'UI View'
                 </div>
                 <div class="content">
                     <div class="name">一个链接</div>
-                    <p class="description">免费在线观看高清视频教程的网站。</p>
+                    <p class="description">This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.</p>
                     <div class="extra">
                         199 喜欢
                     </div>
@@ -52,7 +52,7 @@ type        : 'UI View'
                 </div>
                 <div class="content">
                     <div class="meta">5天前</div>
-                    <div class="name">一个链接Semantic UI视频教程</div>
+                    <div class="name">Faithful Dog</div>
                     <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                     <div class="extra">
                         311 喜欢
@@ -67,7 +67,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接Redis视频教程</div>
+                    <div class="name">Redis介绍</div>
                     <p class="description">Redis是一个内存数据库，并且在此基本上增加了很多数据结构，比如List, Set, ZSet等，让你可以更加快速的整合自己的数据。本视频教程以其为基础进行讲解。</p>
                     <div class="extra">
                         522 喜欢
@@ -82,7 +82,7 @@ type        : 'UI View'
             <div class="item">
                 <div class="content">
                     <div class="meta">2天前</div>
-                    <div class="name">一个链接天前Bootstrap视频教程</div>
+                    <div class="name">Silly Dog</div>
                     <p class="description">Bootstrap是由Twitter开发的一个前端框架，和Semantic UI类似，不过没有Semantic UI这么多的控件，和Semantic UI比起来稍微差一些。</p>
                 </div>
                 <div class="extra">
@@ -92,7 +92,7 @@ type        : 'UI View'
             <div class="item">
                 <div class="content">
                     <div class="meta">5天前</div>
-                    <div class="name">一个链接Semantic UI视频教程</div>
+                    <div class="name">Silly Dog</div>
                     <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                 </div>
                 <div class="extra">
@@ -102,7 +102,7 @@ type        : 'UI View'
             <div class="item">
                 <div class="content">
                     <div class="meta">1周前</div>
-                    <div class="name">一个链接ExtJS视频教程</div>
+                    <div class="name">Silly Dog</div>
                     <p class="description">Silly dogs can be quite fun to have as companions. You never know what kind of ridiculous thing they will do.</p>
                 </div>
                 <div class="extra">
@@ -128,7 +128,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接天前Bootstrap视频教程</div>
+                    <div class="name">Silly Dog</div>
                     <p class="description">Bootstrap是由Twitter开发的一个前端框架，和Semantic UI类似，不过没有Semantic UI这么多的控件，和Semantic UI比起来稍微差一些。</p>
                     <div class="extra">
                         199 喜欢
@@ -144,7 +144,7 @@ type        : 'UI View'
                 </div>
                 <div class="content">
                     <div class="meta">5天前</div>
-                    <div class="name">一个链接Semantic UI视频教程</div>
+                    <div class="name">Silly Dog</div>
                     <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                     <div class="extra">
                         311 喜欢
@@ -168,7 +168,7 @@ type        : 'UI View'
                         <img src="/images/demo/highres4.jpg">
                     </div>
                     <div class="content">
-                        <div class="name">一个链接天前Bootstrap视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">Bootstrap是由Twitter开发的一个前端框架，和Semantic UI类似，不过没有Semantic UI这么多的控件，和Semantic UI比起来稍微差一些。</p>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ type        : 'UI View'
                         <img src="/images/demo/highres5.jpg">
                     </div>
                     <div class="content">
-                        <div class="name">一个链接Semantic UI视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                     </div>
                 </div>
@@ -186,7 +186,7 @@ type        : 'UI View'
                         <img src="/images/demo/highres3.jpg">
                     </div>
                     <div class="content">
-                        <div class="name">一个链接ExtJS视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">Silly dogs can be quite fun to have as companions. You never know what kind of ridiculous thing they will do.</p>
                     </div>
                 </div>
@@ -198,37 +198,37 @@ type        : 'UI View'
             <div class="row">
                 <div class="item">
                     <div class="content">
-                        <div class="name">一个链接天前Bootstrap视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">Bootstrap是由Twitter开发的一个前端框架，和Semantic UI类似，不过没有Semantic UI这么多的控件，和Semantic UI比起来稍微差一些。</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="content">
-                        <div class="name">一个链接Semantic UI视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="content">
-                        <div class="name">一个链接ExtJS视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">Silly dogs can be quite fun to have as companions. You never know what kind of ridiculous thing they will do.</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="content">
-                        <div class="name">一个链接天前Bootstrap视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">Bootstrap是由Twitter开发的一个前端框架，和Semantic UI类似，不过没有Semantic UI这么多的控件，和Semantic UI比起来稍微差一些。</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="content">
-                        <div class="name">一个链接Semantic UI视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="content">
-                        <div class="name">一个链接ExtJS视频教程</div>
+                        <div class="name">Silly Dog</div>
                         <p class="description">Silly dogs can be quite fun to have as companions. You never know what kind of ridiculous thing they will do.</p>
                     </div>
                 </div>
@@ -250,7 +250,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接天前Bootstrap视频教程</div>
+                    <div class="name">Silly Dog</div>
                     <p class="description">Bootstrap是由Twitter开发的一个前端框架，和Semantic UI类似，不过没有Semantic UI这么多的控件，和Semantic UI比起来稍微差一些。</p>
                 </div>
             </div>
@@ -262,7 +262,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接Semantic UI视频教程</div>
+                    <div class="name">Semantic UI介绍</div>
                     <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                 </div>
             </div>
@@ -274,7 +274,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接ExtJS视频教程</div>
+                    <div class="name">ExtJS介绍</div>
                     <p class="description">Silly dogs can be quite fun to have as companions. You never know what kind of ridiculous thing they will do.</p>
                 </div>
             </div>
@@ -286,7 +286,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接MySQL视频教程</div>
+                    <div class="name">MySQL介绍</div>
                     <p class="description">MySQL是当前最为流行的开源数据库，优点很多，不一一解释，如果你的项目需要数据库，且又不想为数据库投入额外的资金，对数据库的性能要求又有点高，那么MySQL是你的不二选择。</p>
                 </div>
             </div>
@@ -303,7 +303,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接天前Bootstrap视频教程</div>
+                    <div class="name">Bootstrap介绍</div>
                     <p class="description">Bootstrap是由Twitter开发的一个前端框架，和Semantic UI类似，不过没有Semantic UI这么多的控件，和Semantic UI比起来稍微差一些。</p>
                 </div>
             </div>
@@ -315,7 +315,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接Semantic UI视频教程</div>
+                    <div class="name">Semantic UI介绍</div>
                     <p class="description">以Semantic UI中文网为依托对Semantic UI的各个控件、模块以及元素进行讲解。</p>
                 </div>
             </div>
@@ -327,7 +327,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接ExtJS视频教程</div>
+                    <div class="name">ExtJS介绍</div>
                     <p class="description">Silly dogs can be quite fun to have as companions. You never know what kind of ridiculous thing they will do.</p>
                 </div>
             </div>
@@ -339,7 +339,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接MySQL视频教程</div>
+                    <div class="name">MySQL介绍</div>
                     <p class="description">MySQL是当前最为流行的开源数据库，优点很多，不一一解释，如果你的项目需要数据库，且又不想为数据库投入额外的资金，对数据库的性能要求又有点高，那么MySQL是你的不二选择。</p>
                 </div>
             </div>
@@ -351,7 +351,7 @@ type        : 'UI View'
                     </a>
                 </div>
                 <div class="content">
-                    <div class="name">一个链接Oralce视频教程</div>
+                    <div class="name">Oralce介绍</div>
                     <p class="description">Oralce数据库是Oracle公司开发一个商业级数据库，无论是在性能还是售后支持上都无与伦比，当然，价格也是很高的。</p>
                 </div>
             </div>
