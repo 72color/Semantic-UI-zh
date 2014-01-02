@@ -28,49 +28,7 @@
         <meta name="description" content="<%= @getPreparedDescription() %>" />
         <meta name="keywords" content="<%= @getPreparedKeywords() %>" />
 
-        <% if 'development' in @getEnvironments(): %>
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/basic.icon.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/icon.css">
-
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/button.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/divider.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/header.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/image.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/input.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/label.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/loader.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/reveal.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/progress.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/segment.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/elements/step.css">
-
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/collections/breadcrumb.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/collections/form.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/collections/grid.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/collections/menu.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/collections/message.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/collections/table.css">
-
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/views/comment.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/views/list.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/views/feed.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/views/item.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/views/statistic.css">
-
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/modal.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/accordion.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/dropdown.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/popup.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/rating.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/sidebar.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/shape.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/tab.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/checkbox.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/dimmer.css">
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/uncompressed/modules/transition.css">
-        <% else: %>
-        <link rel="stylesheet" type="text/css" class="ui" href="/build/packaged/css/semantic.min.css">
-        <% end %>
+        <link rel="stylesheet" type="text/css" class="ui" href="http://www.semantic-ui.com/build/packaged/css/semantic.min.css">
 
         <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
 
@@ -107,35 +65,17 @@
         <script src="/javascript/library/tablesort.js"></script>
         <script src="/javascript/library/waypoints.js"></script>
 
-        <% if 'development' in @getEnvironments(): %>
-        <script src="/build/uncompressed/modules/behavior/api.js"></script>
-        <script src="/build/uncompressed/modules/behavior/state.js"></script>
-        <script src="/build/uncompressed/modules/accordion.js"></script>
-        <script src="/build/uncompressed/modules/checkbox.js"></script>
-        <script src="/build/uncompressed/modules/dimmer.js"></script>
-        <script src="/build/uncompressed/modules/dropdown.js"></script>
-        <script src="/build/uncompressed/modules/modal.js"></script>
-        <script src="/build/uncompressed/modules/popup.js"></script>
-        <script src="/build/uncompressed/modules/rating.js"></script>
-        <script src="/build/uncompressed/modules/shape.js"></script>
-        <script src="/build/uncompressed/modules/sidebar.js"></script>
-        <script src="/build/uncompressed/modules/tab.js"></script>
-        <script src="/build/uncompressed/modules/transition.js"></script>
-        <% else: %>
-        <script src="/build/packaged/javascript/semantic.min.js"></script>
-        <% end %>
+        <script src="http://www.semantic-ui.com/build/packaged/javascript/semantic.min.js"></script>
 
         <script src="/javascript/semantic.js"></script>
-        <script>
-            var _hmt = _hmt || [];
-        </script>
+
     </head>
     <body id="example" class="<%= @document.css %>">
         <div class="ui large vertical inverted labeled icon sidebar menu" id="menu">
             <a class="hide item">
                 <i class="close icon"></i> 关闭
             </a>
-            <a class="item" href="/build/semantic.zip">
+            <a class="item" href="http://www.semantic-ui.com/build/semantic.zip">
                 <i class="inverted circular red awesome download cloud icon"></i> <b>下载</b>
             </a>
             <div class="item">
@@ -263,53 +203,6 @@
 
         <%- @content %>
 
-        <!-- UY BEGIN -->
-        <div id="uyan_frame" class="uyan"></div>
-        <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1796570"></script>
-        <!-- UY END -->
-
-        <!-- Baidu Button BEGIN -->
-        <script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=0&amp;mini=1&amp;pos=right&amp;uid=1336512" ></script>
-        <script type="text/javascript" id="bdshell_js"></script>
-        <script type="text/javascript">
-            var bds_config = {
-                "bdTop": ($(window).height() / 2) - 125
-            };
-            document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000);
-        </script>
-
-        <script id="bdaddtocite_shell"></script>
-        <script>
-            var bdShare_config_addtocite = {
-                "type": "slide",
-                "pos": "left",
-                "color": "yellow",
-                "top": ($(window).height() / 2) - 125,
-                "uid": "1336512"
-            };
-            document.getElementById("bdaddtocite_shell").src = "http://bdimg.share.baidu.com/static/js/addtocite_shell.js?t=" + Math.ceil(new Date() / 3600000);
-        </script>
-
-        <!-- 百度统计代码 -->
-        <script type="text/javascript">
-            var _bdhmProtocol = (("https:" === document.location.protocol) ? " https://" : " http://");
-            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F15c171bb9055fe2ceff2276fbc72dd70' type='text/javascript'%3E%3C/script%3E"));
-        </script>
-        <!-- Baidu Button END -->
-
-        <style type="text/css">
-            .goWebsite {
-                display:none;
-            }
-
-            #uyan_cmt_box div a[title="社会化评论是什么？"] {
-                display:none;
-            }
-
-            .ujian-hook div div div a:last {
-                display:none;
-            }
-        </style>
     </body>
 
 </html>

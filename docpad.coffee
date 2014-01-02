@@ -3,7 +3,7 @@
 docpadConfig = {
 
 	srcPath : './server'
-	outPath: './semantic'
+	outPath: './docs'
 
 	# =================================
 	# Template Data
@@ -15,7 +15,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://semantic.icoolxue.com"
+			url: "http://semantic-ui.com.cn"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [

@@ -14,7 +14,7 @@
     "url": "git://github.com/jlukic/Semantic-UI.git"
   },
   "dependencies": {
-    "docpad": "~6.58.0",
+    "docpad": "~6.59.6",
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-ghpages": "~2.4.1",
     "docpad-plugin-partials": "~2.8.1"
@@ -47,6 +47,10 @@
     "karma-spec-reporter": "0.0.5",
     "grunt-clear": "~0.2.1",
     "grunt-autoprefixer": "~0.4.0",
-    "load-grunt-tasks": "~0.2.0"
+    "load-grunt-tasks": "~0.2.0",
+    "docpad-plugin-ghpages": "~2.4.1",
+    "docpad-plugin-partials": "~2.8.1",
+    "docpad-plugin-eco": "~2.0.3",
+    "docpad": "~6.59.6"
   }
 }
