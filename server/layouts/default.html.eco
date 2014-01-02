@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
-    <% if 'development' in @getEnvironments(): %>
-    <% else: %>
-    <base href="http://semantic-org.github.io/Semantic-UI-zh/">
-    <% end %>
     <head>
+        <% if 'development' in @getEnvironments(): %>
+        <% else: %>
+        <base href="http://semantic-org.github.io/Semantic-UI-zh/">
+        <% end %>
         <% uiIntroduction    = @getCollection("documents").findAll({type: $in: ['UI Introduction']},[{title: 1}]).toJSON() %>
         <% uiProject         = @getCollection("documents").findAll({type: $in: ['Semantic Project']},[{title: 1}]).toJSON() %>
         <% uiGuide           = @getCollection("documents").findAll({type: $in: ['UI Guide']},[{title: 1}]).toJSON() %>
@@ -35,21 +35,6 @@
         <link rel="stylesheet" type="text/css" class="ui" href="http://www.semantic-ui.com/build/packaged/css/semantic.min.css">
 
         <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
-
-        <% if 'development' in @getEnvironments(): %>
-        <script>
-            (function() {
-                var
-                        eventSupport = ('querySelector' in document && 'addEventListener' in window)
-                jsonSupport = (typeof JSON !== 'undefined'),
-                        jQuery = (eventSupport && jsonSupport)
-                        ? '/javascript/library/jquery.js'
-                        : '/javascript/library/jquery.legacy.js'
-                        ;
-                document.write('<script src="' + jQuery + '"><\/script>');
-            }());
-        </script>
-        <% else: %>
         <script>
             (function() {
                 var
@@ -62,7 +47,6 @@
                 document.write('<script src="' + jQuery + '"><\/script>');
             }());
         </script>
-        <% end %>
         <script src="/javascript/library/history.js"></script>
         <script src="/javascript/library/easing.js"></script>
         <script src="/javascript/library/ace/ace.js"></script>
