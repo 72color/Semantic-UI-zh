@@ -1,0 +1,549 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="image_src" type="image/jpeg" href="images/share.png" />
+
+  <!-- Site Properities -->
+  <meta name="generator" content="DocPad v6.59.6" />
+  <title>Playground | Semantic UI中文网</title>
+
+  <meta name="description" content="Semantic empowers designers and developers by creating a shared vocabulary for UI." />
+  <meta name="keywords" content="Semantic UI, Semantic入门, CSS, CSS框架, CSS framework, html5, ui, library, framework, javascript, Semantic UI中文网, Semantic UI翻译, Semantic UI教程" />
+
+  <link rel="stylesheet" type="text/css" class="ui" href="http://www.semantic-ui.com/build/packaged/css/semantic.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/stylesheets/semantic.css">
+  <script>
+    (function() {
+      var
+      eventSupport = ('querySelector' in document && 'addEventListener' in window)
+      jsonSupport = (typeof JSON !== 'undefined'),
+      jQuery = (eventSupport && jsonSupport)
+      ? '/javascript/library/jquery.min.js'
+      : '/javascript/library/jquery.legacy.min.js'
+      ;
+      document.write('<script src="' + jQuery + '"><\/script>');
+    }());
+  </script>
+  <script src="/javascript/library/history.js"></script>
+  <script src="/javascript/library/easing.js"></script>
+  <script src="/javascript/library/ace/ace.js"></script>
+  <script src="/javascript/library/tablesort.js"></script>
+  <script src="/javascript/library/waypoints.js"></script>
+
+  <script src="http://www.semantic-ui.com/build/packaged/javascript/semantic.min.js"></script>
+
+  <script src="/javascript/semantic.js"></script>
+
+</head>
+<body id="example" class="playground">
+  <div class="ui large vertical inverted labeled icon sidebar menu" id="menu">
+    <a class="hide item">
+      <i class="close icon"></i> 关闭
+    </a>
+    <a class="item" href="http://www.semantic-ui.com/build/semantic.zip">
+      <i class="inverted circular red awesome download cloud icon"></i> <b>下载</b>
+    </a>
+    <div class="item">
+      <a href="/">
+        <b>简单介绍</b>
+      </a>
+      <div class="menu">
+        
+        <a class="item" href="/introduction/variations.html">变化</a>
+        
+        <a class="item" href="/introduction/definitions.html">定义</a>
+        
+        <a class="item" href="/introduction.html">有什么新奇的玩意儿？</a>
+        
+        <a class="item" href="/introduction/types.html">样式（种类）</a>
+        
+        <a class="item" href="/introduction/overview.html">概述</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>关于项目</b>
+      <div class="menu">
+        
+        <a class="item" href="/project/contributing.html">加入我们</a>
+        
+        <a class="item" href="/project/development.html">本地文档服务器</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/element.html"><b>基础组件</b></a>
+      <div class="menu">
+        
+        <a class="item" href="/modules/reveal.html">Reveal</a>
+        
+        <a class="item" href="/elements/divider.html">分隔条</a>
+        
+        <a class="item" href="/elements/loader.html">加载控件</a>
+        
+        <a class="item" href="/elements/image.html">图像控件</a>
+        
+        <a class="item" href="/elements/icon.html">图标</a>
+        
+        <a class="item" href="/elements/button.html">按扭</a>
+        
+        <a class="item" href="/elements/label.html">标签</a>
+        
+        <a class="item" href="/elements/header.html">标题头控件</a>
+        
+        <a class="item" href="/elements/step.html">步骤控件</a>
+        
+        <a class="item" href="/elements/segment.html">片断控件</a>
+        
+        <a class="item" href="/elements/input.html">输入控件</a>
+        
+        <a class="item" href="/elements/progress.html">进度条控件</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/collection.html"><b>集合/列表组件</b></a>
+      <div class="menu">
+        
+        <a class="item" href="/collections/message.html">消息控件</a>
+        
+        <a class="item" href="/collections/grid.html">网格（栅格）系统</a>
+        
+        <a class="item" href="/collections/menu.html">菜单</a>
+        
+        <a class="item" href="/collections/form.html">表单</a>
+        
+        <a class="item" href="/collections/table.html">表格</a>
+        
+        <a class="item" href="/collections/breadcrumb.html">面包屑/导航条</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>内容展示组件</b>
+      <div class="menu">
+        
+        <a class="item" href="/views/feed.html">Feed</a>
+        
+        <a class="item" href="/views/item.html">Item（元素列表）</a>
+        
+        <a class="item" href="/views/list.html">列表</a>
+        
+        <a class="item" href="/views/comment.html">评论控件</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <a href="/module.html"><b>模块</b></a>
+      <div class="menu">
+        
+        <a class="item" href="/modules/shape.html">Shape</a>
+        
+        <a class="item" href="/modules/dropdown.html">下拉列表模块</a>
+        
+        <a class="item" href="/modules/checkbox.html">复选框模块</a>
+        
+        <a class="item" href="/modules/popup.html">弹出框模块</a>
+        
+        <a class="item" href="/modules/accordion.html">手风琴模块</a>
+        
+        <a class="item" href="/modules/modal.html">模态对话框</a>
+        
+        <a class="item" href="/modules/rating.html">评分模块</a>
+        
+        <a class="item" href="/modules/dimmer.html">调光器（遮罩层）</a>
+        
+        <a class="item" href="/modules/sidebar.html">边栏</a>
+        
+        <a class="item" href="/modules/transition.html">过渡（动画）效果</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>特定行为控件</b>
+      <div class="menu">
+        
+        <a class="item" href="/modules/form.html">验证表单</a>
+        
+      </div>
+    </div>
+    <div class="item">
+      <b>样式指南</b>
+      <div class="menu">
+        
+        <a class="item" href="/guide/cssguide.html">CSS开发指南</a>
+        
+        <a class="item" href="/guide/javascriptguide.html">Javascript开发指南</a>
+        
+        <a class="item" href="/guide/styleguide.html">语言指南</a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="ui fixed transparent inverted main menu">
+    <div class="container">
+      <a class="launch item"><i class="icon list layout"></i> 内容</a>
+      <div class="title item">
+        <b>Library:</b> Playground
+      </div>
+      
+      <div class="disabled icon item"><i class="left arrow icon"></i></div>
+      
+      <div class="section ui dropdown link item">
+        <span class="count">1 of 2</span>
+        <div class="menu">
+          
+          <div class="active item">
+            <a href="/playground.html">1. Playground</a>
+          </div>
+          
+          <div class="item">
+            <a href="/download.html">2. ����Semantic UI</a>
+          </div>
+          
+        </div>
+      </div>
+      
+      <a class="icon item" href="/download.html"><i class="right arrow icon"></i></a>
+      
+      <div class="right menu">
+        
+        <div class="vertically fitted borderless item">
+          <iframe src="http://ghbtns.com/github-btn.html?user=jlukic&repo=semantic-ui&type=watch&count=true"
+          allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+        </div>
+        
+        
+        <a class="popup icon github item" title="查看Semantic UI在Github的项目信息" href="https://github.com/quirkyinc/semantic">
+          <i class="icon github"></i>
+        </a>
+        <div class="title item">
+          交流群：262577550
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui black huge launch right attached button">
+    <i class="icon list layout"></i>
+    <span class="text">导航</span>
+  </div>
+
+  
+
+
+
+<script src="/javascript/library/zencoding.js"></script>
+<script src="/javascript/library/handlebars.js"></script>
+<script src="/build/uncompressed/modules/dropdown.js"></script>
+<script src="/build/uncompressed/modules/behavior/api.js"></script>
+<script src="/javascript/playground.js"></script>
+
+<div class="ui page grid center aligned title">
+  <div class="ten wide column">
+    <h1 class="ui dividing header">
+      <i class="icon circular lab"></i> Playground
+    </h1>
+  </div>
+</div>
+<div class="ui page grid">
+  <div class="ui three wide column">
+    <div class="ui fluid vertical ui element menu">
+      <div class="header item">Choose UI</div>
+      <div class="item">
+        <form class="ui form">
+          <div class="field">
+            <label>Elements</label>
+            <div class="ui fluid dropdown selection">
+              <input type="hidden" name="element">
+              <i class="icon dropdown"></i>
+              <div class="text">Button</div>
+              <div class="menu">
+                
+                  <div data-value="reveal" class="item">
+                    Reveal
+                  </div>
+                
+                  <div data-value="分隔条" class="item">
+                    分隔条
+                  </div>
+                
+                  <div data-value="加载控件" class="item">
+                    加载控件
+                  </div>
+                
+                  <div data-value="图像控件" class="item">
+                    图像控件
+                  </div>
+                
+                  <div data-value="图标" class="item">
+                    图标
+                  </div>
+                
+                  <div data-value="按扭" class="item">
+                    按扭
+                  </div>
+                
+                  <div data-value="标签" class="item">
+                    标签
+                  </div>
+                
+                  <div data-value="标题头控件" class="item">
+                    标题头控件
+                  </div>
+                
+                  <div data-value="步骤控件" class="item">
+                    步骤控件
+                  </div>
+                
+                  <div data-value="片断控件" class="item">
+                    片断控件
+                  </div>
+                
+                  <div data-value="输入控件" class="item">
+                    输入控件
+                  </div>
+                
+                  <div data-value="进度条控件" class="item">
+                    进度条控件
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label>Collections</label>
+            <div class="ui fluid dropdown selection">
+              <input type="hidden" name="collection">
+              <i class="icon dropdown"></i>
+              <div class="text">---</div>
+              <div class="menu">
+                
+                  <div data-value="消息控件" class="item">
+                    消息控件
+                  </div>
+                
+                  <div data-value="网格（栅格）系统" class="item">
+                    网格（栅格）系统
+                  </div>
+                
+                  <div data-value="菜单" class="item">
+                    菜单
+                  </div>
+                
+                  <div data-value="表单" class="item">
+                    表单
+                  </div>
+                
+                  <div data-value="表格" class="item">
+                    表格
+                  </div>
+                
+                  <div data-value="面包屑/导航条" class="item">
+                    面包屑/导航条
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label>Modules</label>
+            <div class="ui fluid dropdown selection">
+              <input type="hidden" name="module">
+              <i class="icon dropdown"></i>
+              <div class="text">---</div>
+              <div class="menu">
+                
+                  <div data-value="shape" class="item">
+                    Shape
+                  </div>
+                
+                  <div data-value="下拉列表模块" class="item">
+                    下拉列表模块
+                  </div>
+                
+                  <div data-value="复选框模块" class="item">
+                    复选框模块
+                  </div>
+                
+                  <div data-value="弹出框模块" class="item">
+                    弹出框模块
+                  </div>
+                
+                  <div data-value="手风琴模块" class="item">
+                    手风琴模块
+                  </div>
+                
+                  <div data-value="模态对话框" class="item">
+                    模态对话框
+                  </div>
+                
+                  <div data-value="评分模块" class="item">
+                    评分模块
+                  </div>
+                
+                  <div data-value="调光器（遮罩层）" class="item">
+                    调光器（遮罩层）
+                  </div>
+                
+                  <div data-value="边栏" class="item">
+                    边栏
+                  </div>
+                
+                  <div data-value="过渡（动画）效果" class="item">
+                    过渡（动画）效果
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <label>Views</label>
+            <div class="ui fluid dropdown selection">
+              <input type="hidden" name="view">
+              <i class="icon dropdown"></i>
+              <div class="text">---</div>
+              <div class="menu">
+                
+                  <div data-value="feed" class="item">
+                    Feed
+                  </div>
+                
+                  <div data-value="item（元素列表）" class="item">
+                    Item（元素列表）
+                  </div>
+                
+                  <div data-value="列表" class="item">
+                    列表
+                  </div>
+                
+                  <div data-value="评论控件" class="item">
+                    评论控件
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="type menu">
+        <div class="header item">Types</div>
+        <div class="type item">
+          <form class="ui form">
+          </form>
+        </div>
+      </div>
+      <div class="variation menu">
+        <div class="header item">Variations</div>
+        <div class="variation item">
+          <form class="ui form">
+          </form>
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui large red fluid add button"><i class="icon add"></i>Add</div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="ui ten wide default page column">
+    <div class="ui raised segment">
+      <div class="ui large message warning">
+        <div class="header"><i class="icon empty heart"></i> No Designs Yet!</div>
+        Add an element to the left to begin
+      </div>
+    </div>
+  </div>
+  <div class="three wide column">
+
+  <div class="ui purple segment">
+    <div class="ui small dividing header">Preview</div>
+    <div class="ui secondary preview segment">
+    </div>
+  </div>
+  <div class="ui blue segment">
+    <div class="ui small dividing header">Text</div>
+    <div class="ui form">
+      <div class="field">
+        <textarea class="text"></textarea>
+      </div>
+      <div class="ui fluid blue button">Update Text</div>
+    </div>
+  </div>
+  <div class="ui green segment">
+    <div class="ui small dividing header">View</div>
+    <div class="ui two fluid secondary view buttons">
+      <div class="ui active preview button">Preview</div>
+      <div class="ui html button">Code</div>
+    </div>
+    <div class="ui small dividing header">Finish Up</div>
+    <div class="ui positive secondary fluid download button">Download</div>
+  </div>
+</div>
+</body>
+
+<script class="checkbox" type="text/x-handlebars-template">
+<div class="inline field">
+  <div class="ui checkbox">
+    <input type="checkbox" name="{{name}}" value="{{value}}" />
+    <div class="box"></div>
+  </div>
+  {{#if name}}
+  <label>{{name}}</label>
+  {{else}}
+  <label>{{uppercase value}}</label>
+  {{/if}}
+</div>
+</script>
+
+
+<script class="select" type="text/x-handlebars-template">
+<div class="field">
+  <label>{{name}}</label>
+  <div class="ui fluid dropdown {{value}} selection">
+    <input type="hidden" name="{{name}}" value="none">
+    <i class="icon dropdown"></i>
+    <div class="text">Standard</div>
+    <div class="menu">
+      <div class="item" data-value="none">---</div>
+      {{#each values}}
+        {{#if @key}}
+        <div data-value="{{this}}" class="item">
+          {{@key}}
+        </div>
+        {{else}}
+        <div data-value="{{this}}" class="item">
+          {{uppercase this}}
+        </div>
+        {{/if}}
+      {{/each}}
+    </div>
+  </div>
+</div>
+</script>
+
+</html>
+
+</body>
+
+</html>
