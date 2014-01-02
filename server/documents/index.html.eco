@@ -18,7 +18,7 @@ type   : 'Semantic'
                 <h1 class="ui header">Semantic UI</h1>
                 <h2 class="ui header">UI是Web的灵魂！</h2>
                 <p>语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架。</p>
-                <p>Semantic UI学习交流群 <a class="ui red circular label large">262577550</a></p>
+                <p>Semantic UI学习交流群 <div class="ui red circular label large">262577550</div></p>
                 <a class="ui black large labeled launch icon button"><i class="icon list layout"></i> 浏览所有控件</a>
                 <a class="ui red large labeled icon button" href="http://www.semantic-ui.com/build/semantic.zip" class="ui button"><i class="awesome download cloud icon"></i> 下载Semantic UI</a>
             </div>
