@@ -1,5 +1,9 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-CN">
+    <% if 'development' in @getEnvironments(): %>
+    <% else: %>
+    <base href="http://semantic-org.github.io/Semantic-UI-zh/">
+    <% end %>
     <head>
         <% uiIntroduction    = @getCollection("documents").findAll({type: $in: ['UI Introduction']},[{title: 1}]).toJSON() %>
         <% uiProject         = @getCollection("documents").findAll({type: $in: ['Semantic Project']},[{title: 1}]).toJSON() %>
