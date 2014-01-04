@@ -7,7 +7,6 @@
             <h1 class="ui dividing header">
                 <%=@document.title %>
                 <% if @document.status?: %><span class="ui label"><%= @document.status %></span><% end %>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Semantic UI学习交流群 <a class="ui red circular label large">262577550</a>
             </h1>
 
             <p><%=@document.description %></p>

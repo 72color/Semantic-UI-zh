@@ -26,13 +26,13 @@ type        : 'UI Collection'
         <p>基本消息控件</p>
         <div class="ui message">
             <div class="header">
-                爱酷学习网
+                一个链接
             </div>
             <p>
-                爱酷学习网是一个提供了高清在线并且免费观看视频教程的网站，上面有各种计算机类视频教程，如果你想体验手把手式的教学，爱酷学习网不会让你失望。
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
             </p>
             <p>
-                怎么样？喜欢的话还不去<a href="http://www.icoolxue.com" target="_blank">试试</a>。
+                怎么样？喜欢的话还不去<a href="#" target="_blank">试试</a>。
             </p>
         </div>
     </div>
@@ -42,11 +42,11 @@ type        : 'UI Collection'
         <p>一个消息列表的例子</p>
         <div class="ui message">
             <div class="header">
-                爱酷学习网的优点：
+                一个链接的优点：
             </div>
             <ul class="list">
-                <li>观看视频教程都是免费的！</li>
-                <li>所有视频教程都是高清在线观看哦，免去你下载视频教程的等待时间。</li>
+                <li>学习Semantic UI</li>
+                <li>Semantic UI文档。</li>
             </ul>
         </div>
     </div>
@@ -60,7 +60,7 @@ type        : 'UI Collection'
                 <div class="header">
                     没有收到我们的激活邮件？
                 </div>
-                <p>注册成为爱酷学习网的会员是必须通过邮箱激活的哦！</p>
+                <p>注册成为会员是必须通过邮箱激活的哦！</p>
             </div>
         </div>
     </div>
@@ -71,9 +71,9 @@ type        : 'UI Collection'
         <div class="ui message">
             <i class="close icon"></i>
             <div class="header">
-                下载视频教程
+                Semantic UI文档
             </div>
-            <p>爱酷学习网的所有视频教程都是可以下载的哦。</p>
+            <p>Semantic UI文档。</p>
         </div>
     </div>
 
@@ -104,7 +104,7 @@ type        : 'UI Collection'
         <h4 class="ui header">浮动消息控件</h4>
         <p>消息控件可以浮动在和它相关的内容之上。</p>
         <div class="ui floating message">
-            <p>爱酷学习网。</p>
+            <p>一个链接。</p>
         </div>
     </div>
 
@@ -169,7 +169,7 @@ type        : 'UI Collection'
 
     <div class="example">
         <h4 class="ui header">警告消息</h4>
-        <p>显示警告类消息（提示用户有警告类消息，比如爱酷学习网提供了视频教程下载服务，但是下载需要消耗资源，可以在下载前使用这个控件对用户进行提示）。</p>
+        <p>显示警告类消息（提示用户有警告类消息，比如这是Semantic UI文档）。</p>
         <div class="ui warning message">
             <i class="close icon"></i>
             <div class="header">
@@ -185,11 +185,11 @@ type        : 'UI Collection'
         <div class="ui info message">
             <i class="close icon"></i>
             <div class="header">
-                注册成为爱酷学习网的会员有什么好处呢？
+                注册成为一个链接的会员有什么好处呢？
             </div>
             <ul class="list">
-                <li>可以上传自己的视频教程。</li>
-                <li>还可以下载爱酷学习网提供的视频教程原始视频。</li>
+                <li>可以上传自己的Semantic UI文档。</li>
+                <li>还可以下载Semantic UI文档。</li>
             </ul>
         </div>
     </div>
@@ -200,7 +200,7 @@ type        : 'UI Collection'
         <div class="ui success message">
             <i class="close icon"></i>
             <div class="header">
-                恭喜，你已经成功注册并成为爱酷学习网的用户啦。
+                恭喜，你已经成功注册并成为一个链接的用户啦。
             </div>
         </div>
     </div>

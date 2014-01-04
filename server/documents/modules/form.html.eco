@@ -85,7 +85,7 @@ type        : 'UI Behavior'
             });
         </div>
         <div class="ui form segment">
-            <p>注册成为爱酷学习网会员</p>
+            <p>注册成为一个链接会员</p>
             <div class="two fields">
                 <div class="field">
                     <label>姓</label>
@@ -107,7 +107,7 @@ type        : 'UI Behavior'
             <div class="inline field">
                 <div class="ui checkbox">
                     <input type="checkbox" name="terms" />
-                    <label>我同意爱酷学习网的相关服务条款！</label>
+                    <label>我同意一个链接的相关服务条款！</label>
                 </div>
             </div>
             <div class="ui blue submit button">提交</div>

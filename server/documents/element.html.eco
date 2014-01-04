@@ -97,7 +97,7 @@ type        : 'Semantic'
         <div class="item">
             <div class="image">
                 <div class="ui inverted stacked segment">
-                    <p>这是由爱酷学习网翻译并校对的Semantic UI中文网，非常感谢jack lukic为我们提供了如此强大如此易用的前端框架。爱酷学习网是用Bootstrap制作的，事实上，如果我早一点知道有Semantic UI这个框架，我想我应用会使用Semantic UI来完成爱酷学习网的前端页面。</p>
+                    <p>这是由一个链接翻译并校对的Semantic UI中文网，非常感谢jack lukic为我们提供了如此强大如此易用的前端框架。一个链接是用Bootstrap制作的，事实上，如果我早一点知道有Semantic UI这个框架，我想我应用会使用Semantic UI来完成一个链接的前端页面。</p>
                 </div>
             </div>
             <div class="content">

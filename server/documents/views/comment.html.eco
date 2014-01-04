@@ -28,7 +28,7 @@ type        : 'UI View'
             <div class="column">
                 <div class="ui piled blue segment">
                     <h2 class="ui header">
-                        <i class="icon inverted circular blue comment"></i> 关于爱酷学习网的评论
+                        <i class="icon inverted circular blue comment"></i> 关于一个链接的评论
                     </h2>
                     <div class="ui comments">
                         <div class="comment">
@@ -41,7 +41,7 @@ type        : 'UI View'
                                     <span class="date">2天前</span>
                                 </div>
                                 <div class="text">
-                                    爱酷学习网很好啊，视频教程都很清晰！
+                                    This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                                 </div>
                                 <div class="actions">
                                     <a class="reply">回复</a>
@@ -59,7 +59,7 @@ type        : 'UI View'
                                     <span class="date">2天前</span>
                                 </div>
                                 <div class="text">
-                                    爱酷学习网的视频教程要是能免费下载就好了。
+                                    This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                                 </div>
                                 <div class="actions">
                                     <a class="reply">回复</a>
@@ -77,7 +77,7 @@ type        : 'UI View'
                                     <span class="date">两天前</span>
                                 </div>
                                 <div class="text">
-                                    如果爱酷学习网能提供私信功能就好啦。
+                                    如果一个链接能提供私信功能就好啦。
                                 </div>
                                 <div class="actions">
                                     <a class="reply">回复</a>
@@ -113,7 +113,7 @@ type        : 'UI View'
                 <div class="content">
                     <a class="author">华寅</a>
                     <div class="text">
-                        爱酷学习网非常好呀！
+                        一个链接非常好呀！
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@ type        : 'UI View'
                         </div>
                     </div>
                     <div class="text">
-                        爱酷学习网对我的学习的帮助很大。
+                        一个链接。
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ type        : 'UI View'
                         </div>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程能再增加更多的类别吗？
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -194,7 +194,7 @@ type        : 'UI View'
                         <div class="date">两天前</div>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply active">回复</a>
@@ -225,7 +225,7 @@ type        : 'UI View'
                         <div class="date">两天前</div>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -243,7 +243,7 @@ type        : 'UI View'
                         <div class="date">1天前</div>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -278,7 +278,7 @@ type        : 'UI View'
                         <span class="date">两天前</span>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -296,7 +296,7 @@ type        : 'UI View'
                                 <span class="date">1天前</span>
                             </div>
                             <div class="text">
-                                爱酷学习网的视频教程在线观看真清晰！
+                                This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                             </div>
                             <div class="actions">
                                 <a class="reply">回复</a>
@@ -314,7 +314,7 @@ type        : 'UI View'
                                         <span class="date">20分钟前</span>
                                     </div>
                                     <div class="text">
-                                        爱酷学习网的视频教程在线观看真清晰！
+                                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                                     </div>
                                     <div class="actions">
                                         <a class="reply">回复</a>
@@ -332,7 +332,7 @@ type        : 'UI View'
                                         <span class="date">20分钟前</span>
                                     </div>
                                     <div class="text">
-                                        爱酷学习网真好！
+                                        一个链接真好！
                                     </div>
                                     <div class="actions">
                                         <a class="reply">回复</a>
@@ -352,7 +352,7 @@ type        : 'UI View'
                                 <span class="date">两天前</span>
                             </div>
                             <div class="text">
-                                爱酷学习网的视频教程在线观看真清晰！
+                                This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                             </div>
                             <div class="actions">
                                 <a class="reply">回复</a>
@@ -372,7 +372,7 @@ type        : 'UI View'
                         <span class="date">20小时前</span>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -389,7 +389,7 @@ type        : 'UI View'
                         <span class="date">15小时前</span>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -414,7 +414,7 @@ type        : 'UI View'
                         <span class="date">两天前</span>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -432,7 +432,7 @@ type        : 'UI View'
                                 <span class="date">1天前</span>
                             </div>
                             <div class="text">
-                                爱酷学习网的视频教程在线观看真清晰！
+                                This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                             </div>
                             <div class="actions">
                                 <a class="reply">回复</a>
@@ -450,7 +450,7 @@ type        : 'UI View'
                                         <span class="date">20分钟前</span>
                                     </div>
                                     <div class="text">
-                                        爱酷学习网的视频教程在线观看真清晰！
+                                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                                     </div>
                                     <div class="actions">
                                         <a class="reply">回复</a>
@@ -488,7 +488,7 @@ type        : 'UI View'
                                 <span class="date">两天前</span>
                             </div>
                             <div class="text">
-                                爱酷学习网的视频教程在线观看真清晰！
+                                This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                             </div>
                             <div class="actions">
                                 <a class="reply">回复</a>
@@ -508,7 +508,7 @@ type        : 'UI View'
                         <span class="date">20小时前</span>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>
@@ -525,7 +525,7 @@ type        : 'UI View'
                         <span class="date">15小时前</span>
                     </div>
                     <div class="text">
-                        爱酷学习网的视频教程在线观看真清晰！
+                        This dog has some things going for it. Its pretty cute and looks like it'd be fun to cuddle up with.
                     </div>
                     <div class="actions">
                         <a class="reply">回复</a>

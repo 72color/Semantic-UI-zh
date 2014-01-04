@@ -43,7 +43,7 @@ type        : 'UI Module'
         <div class="dropdown example">
             <h4 class="ui header">内联</h4>
             <p>内联样式的下拉列表可以嵌入到内容中，就像是内容本身的元素一样。</p>
-            <div>爱酷学习网有以下的
+            <div>一个链接有以下的
                 <div class="ui inline dropdown">
                     <div class="text">功能</div>
                     <i class="dropdown icon"></i>
@@ -489,7 +489,7 @@ type        : 'UI Module'
             <h3 class="ui header">表单中的下拉列表</h3>
             <p>下拉列表可以出现在<a href="/collections/form.html">表单</a>中</p>
             <div class="ui form segment">
-                <p>开始注册成为爱酷学习网的新用户吧...</p>
+                <p>开始注册成为一个链接的新用户吧...</p>
                 <div class="two fields">
                     <div class="field">
                         <label>姓</label>

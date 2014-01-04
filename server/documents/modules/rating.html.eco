@@ -123,8 +123,8 @@ type        : 'UI Module'
                         <i class="icon"></i>
                     </div>
                     <div class="content">
-                        <div class="header">爱酷学习网怎么样？</div>
-                        给爱酷学习网评分吧。
+                        <div class="header">一个链接怎么样？</div>
+                        给一个链接评分吧。
                     </div>
                 </div>
                 <div class="item">
@@ -137,7 +137,7 @@ type        : 'UI Module'
                         <i class="icon"></i>
                     </div>
                     <div class="content">
-                        <div class="header">爱酷学习网的视频教程清晰吗？</div>
+                        <div class="header">一个链接的视频教程清晰吗？</div>
                         给视频教程的清晰度评个分吧。
                     </div>
                 </div>
